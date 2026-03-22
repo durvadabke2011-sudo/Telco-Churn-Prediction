@@ -1,0 +1,46 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# Model files (optional - include if file is large)
+*.pkl
+*.joblib
+
+# Data files (optional - if dataset is large)
+*.csv
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Logs
+*.log
+
+# Flask cache
+instance/
+.webassets-cache
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Build files
+build/
+dist/
+*.egg-info/
